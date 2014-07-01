@@ -1,0 +1,51 @@
+* {
+	font-family: 'Helvetica';
+}
+
+/*Base*/
+body{
+	
+}
+.container{
+	max-width: 640px;
+	margin: 50px auto;
+	box-shadow: 0px 1px 5px 1px #000;
+	border-radius: 2px;
+}
+/*Base*/
+
+/*Header*/
+.header{
+	height: 100px;
+	background-color: #00BCD4;
+	width: 100%;
+	border-top: 25px solid #0097A7;
+}
+
+.header h2{
+	font-size: 48px;
+	margin-top: 30px;
+	padding-left: 25px;
+	color: white;
+}
+/*Header*/
+
+.day{
+	position: relative;
+	margin: 0;
+	padding: 15px;
+	padding-left: 40px;
+}
+
+.add-item{
+	position: absolute;
+	top: 64px;
+	right: 0;
+	padding-right: 50px;
+	max-width: 30%;
+	max-height: 30%;
+}
+
+.day:nth-child(odd){
+	box-shadow: 0px 0px 20px 1px #000;
+};
