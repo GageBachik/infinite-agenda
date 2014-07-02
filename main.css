@@ -4,7 +4,7 @@
 
 /*Base*/
 body{
-	
+ background-color: #FAFAFA;	
 }
 .container{
 	max-width: 640px;
@@ -54,6 +54,6 @@ body{
 	box-shadow: 0px 0px 20px 1px #000;
 };
 
-body div div.day div p{
-	max-width: 60%;
-};
+.editing{
+	
+}
